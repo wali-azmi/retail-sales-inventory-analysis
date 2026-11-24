@@ -11,10 +11,10 @@ This repository covers data preparation and feature engineering on retail sales 
 - `cleaned_data/retail_sales_clean.csv` — Cleaned dataset with standardized column names, duplicate removal, and parsed dates.
 - `cleaned_data/retail_sales_inventory_ready.csv` — Dataset enriched with shipping duration, profit margin percentage, and inventory stock indicators.
 - `02_sql_sales_inventory_analysis.sql` — SQLite analytical queries for record verification, category sales/profit, stock status, and shipping duration.
--
 
-## Next Steps
+## Dashboard Overview
 
-- **MySQL & DBeaver:** Load `retail_sales_inventory_ready.csv` and run analytical SQL queries.
-- **Power BI:** Build an interactive sales and inventory dashboard.
--
+![Retail Sales & Inventory Dashboard](retail_sales_inventory_dashboard.png)
+
+Interactive Power BI file: [retail_sales_inventory_dashboard.pbix](retail_sales_inventory_dashboard.pbix)
+
