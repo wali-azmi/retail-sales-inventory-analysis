@@ -10,6 +10,8 @@ This repository covers data preparation and feature engineering on retail sales 
 - `01_data_cleaning_and_feature_engineering.ipynb` — Google Colab notebook for data cleaning and feature creation (`pandas`).
 - `cleaned_data/retail_sales_clean.csv` — Cleaned dataset with standardized column names, duplicate removal, and parsed dates.
 - `cleaned_data/retail_sales_inventory_ready.csv` — Dataset enriched with shipping duration, profit margin percentage, and inventory stock indicators.
+- `02_sql_sales_inventory_analysis.sql` — SQLite analytical queries for record verification, category sales/profit, stock status, and shipping duration.
+-
 
 ## Next Steps
 
